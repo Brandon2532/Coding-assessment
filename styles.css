@@ -1,0 +1,404 @@
+.dropbtn {
+  background-color: #4f038d;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #4f038d;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position:relative;
+  float:left;
+  
+}
+.dropdownDisplay {
+  position:relative;
+  float:right;
+  
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+
+.dropbtn1 {
+  background-color:  #08a4ec;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn1:hover, .dropbtn:focus {
+  background-color:  #08a4ec;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown1 {
+  position:relative;
+  float:left;
+  
+}
+.dropdown1Display {
+  position:relative;
+  float:right;
+  
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown1-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown1-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown1-content a:hover {background-color: #ddd;}
+
+
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: rgb(253, 253, 253);
+  margin: 6px 0;
+  transition: 0.4s;
+}
+.header{
+    text-align: center;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .calculator1{
+    margin: auto;
+    width: 320px;
+    padding: 10px;
+    border: 1px solid #f2f2f2;
+    background-color: #fff;
+    height: 550px;
+    background-color: #4f038d;
+  }
+  .calculator2{
+    margin: auto;
+    width: 320px;
+    padding: 10px;
+    border: 1px solid #f2f2f2;
+    background-color: #fff;
+    height: 550px;
+    background-color: #08a4ec;
+  }
+  .calculatorLandscape{
+    margin: auto;
+    width: 550px;
+    padding: 10px;
+    border: 1px solid #f2f2f2;
+    background-color: #fff;
+    height: 320px;
+    background-color:#4f038d;
+  }
+  .header{
+    background-color: #4f038d;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+  }
+  .display{
+    float:inline-start;
+  background-color: #4f038d;
+  width: 320px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid white;
+  text-align: right;
+  color: white;
+  font-size: xx-large;
+  }
+.decimal{
+  grid-column:6;
+  grid-row:3;
+}
+  .displayLandscape{
+    background-color: #4f038d;
+    width: 550px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid white;
+    text-align: right;
+    color: white;
+    font-size: xx-large;
+    }
+.buttons{
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+}
+.buttons1{
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  padding: 10px;
+}
+.blank {
+
+  background-color: #4f038d; 
+  border: none;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  height: 70px;
+  width: 70px;
+  border-radius: 60%;
+
+}
+.blankCustomize {
+
+  background-color: #08a4ec; 
+  border: none;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  height: 70px;
+  width: 70px;
+  border-radius: 60%;
+
+
+}
+ 
+    
+
+
+  .number{
+    background-color: #4f038d; 
+  border-color: white;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  height: 70px;
+  width: 70px;
+  border-radius: 60%;
+  padding: 20px;
+
+  
+  
+  }
+
+  .num-grey{
+    background-color:#646668; 
+  border: none;
+  color: white;
+ 
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  height: 70px;
+  width: 70px;
+  border-radius: 60%;
+  }
+
+.HistoryDisplay{
+ margin: 25px 765px;
+}
+.History{
+  margin: 25px 880px;
+ }
+ 
+
+.operators {
+
+  background-color:  rgb(255, 197, 89); 
+  border: none;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  height: 70px;
+  width: 70px;
+  border-radius: 60%;
+}
+.operatorsCustomize {
+
+  background-color: #4f038d; 
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  height: 70px;
+  width: 70px;
+  border-color: white;
+  border-radius: 60%;
+
+
+}
+
+.equal {
+
+
+  background-color:  rgb(255, 197, 89); 
+  border: none;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+
+  font-size: 16px;
+ margin:0px;
+  cursor: pointer;
+  height: 140px;
+  width: 70px;
+  border-radius: 50%;
+  grid-column:4;
+  grid-row:4/span 2;
+  
+  
+}
+
+.equalLandscape {
+
+
+  
+  grid-column:6;
+  grid-row:1/span 2;
+}
+
+.zero {
+  background-color: #4f038d; 
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  height: 70px;
+  width: 150px;
+  border-radius: 50%;
+  border-color: white;
+  grid-column:1/span 2;
+  grid-row:5;
+}
+.zeroCustomize {
+  background-color: #646668; 
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  height: 70px;
+  width: 150px;
+  border-radius: 50%;
+  border-color: white;
+  grid-column:1/span 2;
+  grid-row:5;
+}
+  .clear {
+    background-color: #4f038d;
+    color: white;
+    border-color: #f9c35e;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+   
+    height: 70px;
+    width: 70px;
+    border-radius: 60%;
+  }
+  .clearCustomize {
+    background-color: #646668;
+    color: white;
+    border-color: #f9c35e;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+   
+    height: 70px;
+    width: 70px;
+    border-radius: 60%;
+  }
+ 
+ 
+
+ 
+  
+  
+  body {
+    background-color: #4f038d;
+  }
+
